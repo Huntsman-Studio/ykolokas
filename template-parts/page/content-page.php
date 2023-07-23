@@ -5,7 +5,10 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>">
-    <?php the_title( '<h1 class="entry-title">', '</h1>' ) ?>
+    <?php 
+        // the_title( '<h1 class="entry-title">', '</h1>' );
+        get_template_part( 'template-parts/header/content' );
+    ?>
 
     <?php
     /** 

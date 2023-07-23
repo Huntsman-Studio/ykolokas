@@ -21,7 +21,6 @@ get_header();
         endif;
         ?>
     </main>
-    <?php get_sidebar(); ?>
 </div>
 
 <?php
