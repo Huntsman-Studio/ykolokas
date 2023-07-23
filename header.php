@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Containf the header.
  */
