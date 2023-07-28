@@ -40,7 +40,7 @@
     <div id="header-right" class="justify-self-end self-center">
         <div class="navigation">
             <nav class="hidden md:block">
-                <?php wp_nav_menu('Primary'); ?>
+                <?php wp_nav_menu(6); ?>
             </nav>
         </div>
     </div>
@@ -52,7 +52,7 @@
         <div id="bottom-bar flex w-100 justify-center items-center">
             <div class="navigation">
                 <nav class="md:hidden">
-                    <?php wp_nav_menu('Primary'); ?>
+                    <?php wp_nav_menu(6); ?>
                 </nav>
             </div>
         </div>

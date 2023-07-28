@@ -24,3 +24,18 @@ ul.menu > li.current-menu-item {
     font-weight: 700;
     border-bottom: 1px solid #FFF;
 }
+
+/* Footer menu */
+div.menu-footer-container  > ul.menu>li.current-menu-item {
+    font-weight: 400;
+    border-bottom: none;
+}
+div.menu-footer-container > ul.menu>li.menu-item {
+    color: #FFF;
+}
+div.menu-footer-container > ul.menu {
+    gap: 32px;
+}
+div.social > svg:hover > path {
+    fill: #F00656;
+}
