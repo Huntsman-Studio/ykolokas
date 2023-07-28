@@ -5,7 +5,7 @@
 
 ?>
 <section class="no-results not-found">
-    <header class="page-header">
+    <header class="page-header w-100">
         <!-- <h1 class="page-title"><?php // esc_html_e( 'Nothing Found', 'ykolokas' ) ?></h1> -->
         <?php get_template_part( 'template-parts/header/content' );  ?>
     </header>

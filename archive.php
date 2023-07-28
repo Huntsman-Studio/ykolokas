@@ -8,7 +8,7 @@ get_header();
 <div id="primary" class="content-arrea">
     <main id="main" class="site-main">
         <?php if ( have_posts() ) : ?>
-            <header class="archive-page-header">
+            <header class="archive-page-header w-100">
                 <?php
                     // the_archive_title( '<h1 class="archive-title">', '</h1>' );
                     // the_archive_description( '<div class="archive-description">', '</div>' );
