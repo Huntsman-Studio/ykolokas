@@ -15,19 +15,19 @@ get_header();
                     get_template_part( 'template-parts/header/content' );
                 ?>
             </header>
-
+            
             <?php
                 // Start the loop
                 while ( have_posts() ) :
                     the_post();
                     get_template_part( 'template-parts/post/content' );
                 endwhile;
-
+                ?> <?php
                 // pagination
-                echo paginate_links( [
-                    'prev_text' => esc_html__('Prev', 'ykolokas'),
-                    'next_text' => esc_html__('Next', 'ykolokas'),
-                ] );
+                // echo paginate_links( [
+                //     'prev_text' => esc_html__('Prev', 'ykolokas'),
+                //     'next_text' => esc_html__('Next', 'ykolokas'),
+                // ] );
 
             else :
             get_template_part('template-parts/page/content', 'none');

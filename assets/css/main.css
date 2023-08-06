@@ -1,3 +1,7 @@
+/* Fonts */
+body {
+    font-family: "Open Sans";
+}
 /* Main menu container */
 div.menu-main-menu-container {
     display: flex;

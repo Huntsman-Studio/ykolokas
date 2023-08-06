@@ -4,7 +4,9 @@
  * Contains the footer.
  */
 ?>
-        <?php wp_footer(); ?>
+        <?php wp_footer();
+        if ( !is_front_page() ) :
+        ?>
         <footer class="bg-[#0F0005] w-full flex justify-center items-center pt-8 pb-6 md:pt-[64px]">
             <div class="grid">
                 <div class="grid md:flex md:items-center md:gap-8">
@@ -40,5 +42,6 @@
                 </div>
             </div>
         </footer>
+        <?php endif; ?>
     </body>
 </html>

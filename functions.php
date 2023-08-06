@@ -88,6 +88,9 @@ if ( ! function_exists( 'ykolokas_setup' ) ) {
             'audio',
         ] );
 
+        // Enable support of featured image
+        add_theme_support( 'post-thumbnails' );
+
         // This theme uses wp_nav_menu() in one location
         register_nav_menus( array(
             'primary' => esc_html__( 'Primary', 'ykolokas' ),
